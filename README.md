@@ -1,4 +1,4 @@
-# Infera — A high-performance inference engine for large language models.
+# Infera — A High-Performance Inference Engine for Large Language Models.
 
 Infera is a production-grade model inference engine designed to deliver high throughput, low latency, and efficient resource utilization for large-scale language model serving.
 
