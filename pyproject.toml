@@ -29,4 +29,3 @@ Homepage = "https://github.com/Yuan-ManX/infera"
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["infera*"]
-
