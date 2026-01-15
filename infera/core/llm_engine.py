@@ -25,7 +25,7 @@ class InferaEngine:
         self.config = config
 
         # -----------------------------
-        # Tokenizer (request-level)
+        # Tokenizer
         # -----------------------------
         self.tokenizer = AutoTokenizer.from_pretrained(
             config.model_path,
