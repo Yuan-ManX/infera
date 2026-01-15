@@ -1,1 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "infera"
+version = "0.1.0"
+authors = [
+    { name = "Infera Team" }
+]
+license = "MIT"
+license-files = ["LICENSE"]
+readme = "README.md"
+description = "A High-Performance Inference Engine for Large Language Models"
+requires-python = ">=3.10,<3.13"
+
+dependencies = [
+    "torch>=2.4.0",
+    "triton>=3.0.0",
+    "transformers>=4.51.0",
+    "flash-attn",
+    "xxhash",
+    "tqdm",
+]
+
+[project.urls]
+Homepage = "https://github.com/Yuan-ManX/infera"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["infera*"]
 
